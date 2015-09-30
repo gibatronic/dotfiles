@@ -1,1 +1,1 @@
-![Terminal](https://gibatronic.github.io/dotfiles/etc/terminal.png)
+![Terminal](/../gh-pages/etc/terminal.png?raw=true)

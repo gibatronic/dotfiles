@@ -19,7 +19,7 @@ export PATH=$(csp ${PATHS[@]})
 # aliases
 
 alias hosts='subl /etc/hosts'
-alias ls='ls -1A'
+alias ls='ls -1Ah'
 
 # autocomplete
 

@@ -18,6 +18,7 @@ export PATH=$(csp ${PATHS[@]})
 
 # aliases
 
+alias docker-env='eval "$(docker-machine env default)"'
 alias hosts='subl /etc/hosts'
 alias ls='ls -1Ah'
 

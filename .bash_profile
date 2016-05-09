@@ -27,7 +27,9 @@ alias ls='ls -1Ah'
 complete -cf man
 complete -cf sudo
 complete -cf which
+
 source "${HOME}/.git-completion"
+source "${HOME}/.make-completion"
 
 # PROMPT_COMMAND and PS1
 

@@ -1,0 +1,13 @@
+function makefile_targets {
+  local CURR_ARG
+  local TARGETS=''
+
+  if [[ -e "$(pwd)/Makefile" ]]; then
+    TARGETS=$(grep -oE '^[a-zA-Z0-9_-]+:' Makefile | sed 's/://' | tr '\n' ' ')
+  fi
+
+  CURR_ARG=${COMP_WORDS[COMP_CWORD]}
+  COMPREPLY=( $(compgen -W "${TARGETS[@]}" -- $CURR_ARG ) );
+}
+
+complete -F makefile_targets make

@@ -8,3 +8,5 @@
 	gpgsign = true
 [remote "origin"]
 	prune = true
+[push]
+	default = current

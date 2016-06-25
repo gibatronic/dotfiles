@@ -1,12 +1,14 @@
-[credential]
-	helper = osxkeychain
-[user]
-	email = gibatronic@gmail.com
-	name = Gibran Malheiros
-	signingkey = 047F462D
 [commit]
-	gpgsign = true
-[remote "origin"]
-	prune = true
+  gpgsign = true
+[credential]
+  helper = osxkeychain
+[help]
+  autocorrect = -1
 [push]
-	default = current
+  default = current
+[remote "origin"]
+  prune = true
+[user]
+  email = gibatronic@gmail.com
+  name = Gibran Malheiros
+  signingkey = 047F462D

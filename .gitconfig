@@ -1,14 +1,14 @@
+[alias]
+  sync = fetch --all --prune
 [commit]
-  gpgsign = true
+  gpgSign = true
 [credential]
   helper = osxkeychain
-[help]
-  autocorrect = -1
+[fetch]
+  prune = true
 [push]
   default = current
-[remote "origin"]
-  prune = true
 [user]
   email = gibatronic@gmail.com
   name = Gibran Malheiros
-  signingkey = 047F462D
+  signingkey = 5DDBFDE8047F462D

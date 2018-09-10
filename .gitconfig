@@ -6,9 +6,13 @@
   helper = osxkeychain
 [fetch]
   prune = true
+[log]
+  date = iso-local
 [push]
   default = current
 [user]
   email = gibatronic@gmail.com
   name = Gibran Malheiros
   signingkey = 5DDBFDE8047F462D
+[status]
+  showUntrackedFiles = all
